@@ -1,6 +1,3 @@
-
-![Kan Territory & IT](https://kan.com.ar/wp-content/uploads/2024/01/logoSM.png)
-
 ![GeoNode](https://geonode.org/static/img/geonode_logo.png)
 
 # GeoNode Cloud
