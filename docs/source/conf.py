@@ -16,10 +16,10 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'GeoExpress Visor'
+project = 'Geonode Cloud'
 copyright = '2024, Kan Territory & IT'
 author = 'Kan Territory & IT'
-release = '2.2.0'
+release = '1.0.0'
 
 # -- Configuración para sustitución de la versión en archivos .rst --
 rst_prolog = """
