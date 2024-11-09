@@ -1,10 +1,10 @@
 site_name: KICa - QGIS Plugin Kan Imagery Catalog
 site_url: https://kan.com.ar/
 nav:
-  - Home: source/index.md
-  - Project Structure: project/index.md
-  - Architecture & Technology: architecture/index.md
-  - Deployment: deployment/index.md
+  - Home: /source/index.md
+  - Project Structure: /source/project/index.md
+  - Architecture & Technology: /source/architecture/index.md
+  - Deployment: /source/deployment/index.md
 
 theme: 
   name: 'material'
