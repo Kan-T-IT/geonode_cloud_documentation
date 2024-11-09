@@ -1,5 +1,0 @@
-sphinx
-sphinx-intl
-sphinx-rtd-theme
-sphinxcontrib-openapi
-sphinx-autobuild
