@@ -1,4 +1,4 @@
-site_name: KICa - QGIS Plugin Kan Imagery Catalog
+site_name: GeoNode Cloud 
 site_url: https://kan.com.ar/
 nav:
   - Home: docs/source/index.md
