@@ -38,7 +38,7 @@ extra:
   alternate:
     - name: English
       lang: en
-    - name: Spanish
+    - name: Español
       lang: es
       link: es/
 
