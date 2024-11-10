@@ -19,16 +19,6 @@ theme:
 
 plugins:
   - search
-  - i18n:
-      docs_structure: suffix
-      languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
-        - locale: es
-          name: Español
-          build: true
 
 extra:
   homepage: https://kan.com.ar
