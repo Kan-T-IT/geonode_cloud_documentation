@@ -63,13 +63,13 @@ git clone https://github.com/Kan-T-IT/geonode-cloud.git && cd geonode-cloud
 Edita el archivo `.env` con la información necesaria:
 
 ```env
-KUBERNETES_SITE_URL=GEONODE_CLOUD_FINAL_URL    # ejemplo.: cloud.mygeonode.com
-KUBERNETES_NODE_NAME=YOUR_CLUSTER_NAME_NAME    # usualmente el nombre de la máquina anfitriona
-KUBERNETES_VOL_DIR=YOUR_DESIRED_LOCATION       # esta ruta debe existir
-CLUSTER_ISSUER_NAME=YOUR_CLUSTER_ISSUER_NAME   # creado anteriormente en esta guía
-SERVER_PUBLIC_IP=YOU.RPU.BLI.CIP               # la dirección IPv4 pública del servidor
-GEONODE_PASSWORD=admin                         # contraseña para el usuario admin de geonode
-GEOSERVER_PASSWORD=geoserver                   # contraseña para el usuario admin de geoserver
+KUBERNETES_SITE_URL=GEONODE_CLOUD_FINAL_URL # ejemplo.: cloud.mygeonode.com
+KUBERNETES_NODE_NAME=YOUR_CLUSTER_NAME_NAME # usualmente el nombre de la máquina anfitriona
+KUBERNETES_VOL_DIR=YOUR_DESIRED_LOCATION # esta ruta debe existir
+CLUSTER_ISSUER_NAME=YOUR_CLUSTER_ISSUER_NAME # creado anteriormente en esta guía
+SERVER_PUBLIC_IP=YOU.RPU.BLI.CIP # la dirección IPv4 pública del servidor
+GEONODE_PASSWORD=admin  # contraseña para el usuario admin de geonode
+GEOSERVER_PASSWORD=geoserver # contraseña para el usuario admin de geoserver
 ```
 
 ### Ejecutar el Script de Instalación
