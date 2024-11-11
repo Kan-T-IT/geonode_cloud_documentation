@@ -1,7 +1,7 @@
 site_name: GeoNode Cloud
 site_url: https://kan.com.ar/
 nav:
-  - index.md
+  - Home: index.md
   - project/index.md
   - architecture/index.md
   - deployment/index.md
