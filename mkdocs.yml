@@ -1,10 +1,10 @@
 site_name: GeoNode Cloud
 site_url: https://kan.com.ar/
 nav:
-  - Home: index.md
+  - index.md
   - project/index.md
-  - Architecture & Technology: architecture/index.md
-  - Deployment: deployment/index.md
+  - architecture/index.md
+  - deployment/index.md
 
 theme:
   name: 'material'
