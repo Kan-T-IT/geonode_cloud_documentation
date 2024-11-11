@@ -6,6 +6,11 @@ nav:
   - architecture/index.md
   - deployment/index.md
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 theme:
   name: 'material'
   logo: assets/images/logo.png
@@ -49,6 +54,5 @@ extra:
       link: pt/
 
 repo_url: https://github.com/Kan-T-IT/geonode_cloud_documentation
-
 
   
