@@ -5,6 +5,7 @@ nav:
   - project/index.md
   - architecture/index.md
   - deployment/index.md
+  - integration/index.md
 
 markdown_extensions:
   - admonition
