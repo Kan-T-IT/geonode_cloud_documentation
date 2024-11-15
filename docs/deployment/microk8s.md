@@ -1,30 +1,28 @@
-# Deployment
+# Deployment on MicroK8S
 
 GeoNode Cloud can be deployed on various Kubernetes platforms. Here are the steps for deploying it on **MicroK8S**.
 
-## Deployment on MicroK8S
-
-### Requirements
+## Requirements
 
 * MicroK8S:
     * Ingress module
     * DNS module
     * Cert-manager module
 
-### Install MicroK8S with Snap
+## Install MicroK8S with Snap
 
 ```bash
 sudo snap install microk8s --classic
 ```
 
-### Enable Required MicroK8S Modules
+## Enable Required MicroK8S Modules
 
 ```bash
 microk8s enable ingress
 microk8s enable cert-manager
 ```
 
-### Create Cert-Manager Configuration for Let's Encrypt
+## Create Cert-Manager Configuration for Let's Encrypt
 
 Replace `YOUREMAIL@DOMAIN.com` with your own email address.
 

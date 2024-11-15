@@ -4,7 +4,8 @@ nav:
   - Home: index.md
   - project/index.md
   - architecture/index.md
-  - deployment/index.md
+  - deployment/microk8s.md
+  - deployment/eks.md
   - integration/index.md
 
 markdown_extensions:
