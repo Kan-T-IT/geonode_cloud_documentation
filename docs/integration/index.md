@@ -1,28 +1,20 @@
 # GeoNode integration
 
-!!! note
+!!! warning
 
     GeoServer Cloud experimental GeoNode integration
-
-**GeoNode admin user**: `admin/geonode`
-
-## Run GeoNode with GeoServer Cloud:
-
-```bash
-docker compose pull
-docker compose up -d
-```
-
-## Run GeoNode with Vanilla GeoServer:
-
-```bash
-docker compose -f vanilla.yml up -d
-```
 
 ## Configure GeoNode AuthZN
 
 1. Go to [http://localhost/geoserver/](http://localhost/geoserver/) (note the trailing `/`).
+
+   !!! note
+
+       Replace localhost with the DNS of your GeoNode deployment if applicable.
+
 2. Log in as `admin/geoserver`.
+
+!!! note
 
 ### Create ROLE service
 
