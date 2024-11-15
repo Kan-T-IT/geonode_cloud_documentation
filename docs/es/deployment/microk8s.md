@@ -1,30 +1,28 @@
-# Despliegue
+# Implementación en MicroK8S
 
 GeoNode Cloud se puede desplegar en varias plataformas de Kubernetes. Aquí están los pasos para desplegarlo en **MicroK8S**.
 
-## Despliegue en MicroK8S
-
-### Requisitos
+## Requisitos
 
 * MicroK8S:
-    * Módulo Ingress
+    * Módulo de ingreso
     * Módulo DNS
-    * Módulo Cert-manager
+    * Módulo de gestión de certificados
 
-### Instalar MicroK8S con Snap
+## Instalar MicroK8S con Snap
 
 ```bash
 sudo snap install microk8s --classic
 ```
 
-### Habilitar los Módulos Requeridos de MicroK8S
+## Habilitar los Módulos Requeridos de MicroK8S
 
 ```bash
 microk8s enable ingress
 microk8s enable cert-manager
 ```
 
-### Crear Configuración de Cert-Manager para Let's Encrypt
+## Crear Configuración de Cert-Manager para Let's Encrypt
 
 Reemplaza `TUEMAIL@DOMINIO.com` con tu propia dirección de correo electrónico.
 
@@ -34,19 +32,19 @@ microk8s kubectl apply -f - <<EOF
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
-  name: letsencrypt
+name: letsencrypt
 spec:
-  acme:
-    email: TUEMAIL@DOMINIO.com
-    server: https://acme-v02.api.letsencrypt.org/directory
-    privateKeySecretRef:
-      # Recurso de secreto que se utilizará para almacenar la clave privada de la cuenta.
-      name: letsencrypt-account-key
-    # Añadir un solo solucionador de desafíos, HTTP01 usando nginx
-    solvers:
-    - http01:
-        ingress:
-          class: public
+acme:
+email: TUEMAIL@DOMINIO.com
+server: https://acme-v02.api.letsencrypt.org/directory
+privateKeySecretRef:
+# Recurso de secreto que se utilizará para almacenar la clave privada de la cuenta.
+name: letsencrypt-account-key
+# Añadir un solo solucionador de desafíos, HTTP01 usando nginx
+solvers:
+- http01:
+ingress:
+class: public
 EOF
 ```
 
@@ -58,7 +56,7 @@ EOF
 git clone https://github.com/Kan-T-IT/geonode-cloud.git && cd geonode-cloud
 ```
 
-### Configurar las Variables de Entorno
+### Configurar las variables de entorno
 
 Edita el archivo `.env` con la información necesaria:
 
@@ -68,14 +66,14 @@ KUBERNETES_NODE_NAME=YOUR_CLUSTER_NAME_NAME # usualmente el nombre de la máquin
 KUBERNETES_VOL_DIR=YOUR_DESIRED_LOCATION # esta ruta debe existir
 CLUSTER_ISSUER_NAME=YOUR_CLUSTER_ISSUER_NAME # creado anteriormente en esta guía
 SERVER_PUBLIC_IP=YOU.RPU.BLI.CIP # la dirección IPv4 pública del servidor
-GEONODE_PASSWORD=admin  # contraseña para el usuario admin de geonode
+GEONODE_PASSWORD=admin # contraseña para el usuario admin de geonode
 GEOSERVER_PASSWORD=geoserver # contraseña para el usuario admin de geoserver
 ```
 
-### Ejecutar el Script de Instalación
+### Ejecutar el script de instalación
 
 ```bash
 ./install.sh
 ```
 
-GeoNode Cloud ahora debería estar listo para su uso.
+GeoNode Cloud ahora debería estar listo para usarse.
