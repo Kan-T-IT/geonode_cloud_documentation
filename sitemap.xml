@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://kan.com.ar/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/architecture/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/architecture/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/deployment/eks/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/deployment/eks/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/deployment/eks/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/deployment/eks/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/deployment/microk8s/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/deployment/microk8s/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/deployment/microk8s/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/deployment/microk8s/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/integration/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/integration/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/integration/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/integration/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/project/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/project/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/project/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/project/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/es/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/es/architecture/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/architecture/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/es/deployment/eks/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/deployment/eks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/deployment/eks/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/deployment/eks/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/es/deployment/microk8s/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/deployment/microk8s/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/deployment/microk8s/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/deployment/microk8s/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/es/integration/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/integration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/integration/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/integration/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/es/project/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/project/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/project/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/project/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/pt/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/pt/architecture/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/architecture/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/pt/deployment/eks/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/deployment/eks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/deployment/eks/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/deployment/eks/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/pt/deployment/microk8s/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/deployment/microk8s/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/deployment/microk8s/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/deployment/microk8s/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/pt/integration/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/integration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/integration/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/integration/"/>
+    </url>
+    <url>
+        <loc>https://kan.com.ar/pt/project/</loc>
+        <lastmod>2024-11-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://kan.com.ar/pt/project/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://kan.com.ar/project/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://kan.com.ar/es/project/"/>
+    </url>
+</urlset>
