@@ -76,6 +76,4 @@ GEOSERVER_PASSWORD=geoserver # contraseña para el usuario admin de geoserver
 ./install.sh
 ```
 
-```bash
-./install.sh
-```
+GeoNode Cloud ahora debería estar listo para usarse.
