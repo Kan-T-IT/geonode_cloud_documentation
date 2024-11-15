@@ -5,7 +5,7 @@ GeoNode Cloud se puede desplegar en varias plataformas de Kubernetes. Aquí est�
 ## Requisitos
 
 * MicroK8S:
-    * MicroK8S:
+    * Módulo de ingreso
     * Módulo Ingress
     * Módulo DNS
 
