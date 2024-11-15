@@ -52,7 +52,9 @@ EOF
 
 ### Clonar el repositorio
 
-Clonar el repositorio
+```bash
+git clone https://github.com/Kan-T-IT/geonode-cloud.git && cd geonode-cloud
+```
 
 ### ```bash
 git clone https://github.com/Kan-T-IT/geonode-cloud.git && cd geonode-cloud
