@@ -48,29 +48,9 @@ class: public
 EOF
 ```
 
-## ```bash
-microk8s kubectl apply -f - <<EOF
----
-apiVersion: cert-manager.io/v1
-kind: ClusterIssuer
-metadata:
-  name: letsencrypt
-spec:
-  acme:
-    email: TUEMAIL@DOMINIO.com
-    server: https://acme-v02.api.letsencrypt.org/directory
-    privateKeySecretRef:
-      # Recurso de secreto que se utilizará para almacenar la clave privada de la cuenta.
-      name: letsencrypt-account-key
-    # Añadir un solo solucionador de desafíos, HTTP01 usando nginx
-    solvers:
-    - http01:
-        ingress:
-          class: public
-EOF
-```
+## Despliegue
 
-### Despliegue
+### Clonar el repositorio
 
 Clonar el repositorio
 
