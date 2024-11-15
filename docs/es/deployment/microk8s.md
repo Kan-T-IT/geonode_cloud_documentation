@@ -1,4 +1,4 @@
-# Despliegue
+# Implementación en MicroK8S
 
 GeoNode Cloud se puede desplegar en varias plataformas de Kubernetes. Aquí están los pasos para desplegarlo en **MicroK8S**.
 
