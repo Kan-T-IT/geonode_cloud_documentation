@@ -8,9 +8,9 @@
 
 1. Go to [http://localhost/geoserver/](http://localhost/geoserver/) (note the trailing `/`).
 
-   !!! note
+    !!! note
 
-       Replace localhost with the DNS of your GeoNode deployment if applicable.
+        Replace localhost with the DNS of your GeoNode deployment if applicable.
 
 2. Log in as `admin/geoserver`.
 
