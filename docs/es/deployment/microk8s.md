@@ -24,7 +24,7 @@ microk8s enable cert-manager
 
 ## Crear Configuración de Cert-Manager para Let's Encrypt
 
-Crear Configuración de Cert-Manager para Let's Encrypt
+Reemplaza `TUEMAIL@DOMINIO.com` con tu propia dirección de correo electrónico.
 
 Reemplaza `TUEMAIL@DOMINIO.com` con tu propia dirección de correo electrónico.
 
