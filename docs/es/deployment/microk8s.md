@@ -7,7 +7,7 @@ GeoNode Cloud se puede desplegar en varias plataformas de Kubernetes. Aquí est�
 * MicroK8S:
     * Módulo de ingreso
     * Módulo DNS
-    * Módulo DNS
+    * Módulo de gestión de certificados
 
 ## Módulo Cert-manager
 
