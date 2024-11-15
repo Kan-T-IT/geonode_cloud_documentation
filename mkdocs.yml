@@ -2,9 +2,15 @@ site_name: GeoNode Cloud
 site_url: https://kan.com.ar/
 nav:
   - Home: index.md
-  - Project Structure: project/index.md
-  - Architecture & Technology: architecture/index.md
-  - Deployment: deployment/index.md
+  - project/index.md
+  - architecture/index.md
+  - deployment/index.md
+  - integration/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 theme:
   name: 'material'
@@ -16,6 +22,7 @@ theme:
     repo: fontawesome/brands/github
   features:
     - search.suggest
+    - navigation.footer
 
 plugins:
   - search
@@ -41,7 +48,7 @@ extra:
   alternate:
     - name: English
       lang: en
-    - name: Spanish
+    - name: Español
       lang: es
       link: es/
     - name: Portuguese
@@ -49,6 +56,3 @@ extra:
       link: pt/
 
 repo_url: https://github.com/Kan-T-IT/geonode_cloud_documentation
-
-
-  
