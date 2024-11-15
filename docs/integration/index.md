@@ -14,8 +14,6 @@
 
 2. Log in as `admin/geoserver`.
 
-!!! note
-
 ### Create ROLE service
 
 1. Navigate to **Security** -> **Users, Groups, Roles** -> **Services** -> **Role Services/Add New**.
