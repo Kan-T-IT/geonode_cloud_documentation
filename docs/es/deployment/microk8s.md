@@ -22,10 +22,7 @@ microk8s enable ingress
 microk8s enable cert-manager
 ```
 
-## ```bash
-microk8s enable ingress
-microk8s enable cert-manager
-```
+## Crear Configuración de Cert-Manager para Let's Encrypt
 
 Crear Configuración de Cert-Manager para Let's Encrypt
 
