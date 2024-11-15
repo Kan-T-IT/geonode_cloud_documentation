@@ -11,7 +11,6 @@ GeoNode Cloud se puede desplegar en varias plataformas de Kubernetes. Aqu√≠ est√
 
 ## Instalar MicroK8S con Snap
 
-
 ```bash
 sudo snap install microk8s --classic
 ```
