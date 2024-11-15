@@ -17,7 +17,10 @@ sudo snap install microk8s --classic
 
 ## Habilitar los Módulos Requeridos de MicroK8S
 
-Habilitar los Módulos Requeridos de MicroK8S
+```bash
+microk8s enable ingress
+microk8s enable cert-manager
+```
 
 ## ```bash
 microk8s enable ingress
