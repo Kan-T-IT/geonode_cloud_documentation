@@ -56,9 +56,7 @@ EOF
 git clone https://github.com/Kan-T-IT/geonode-cloud.git && cd geonode-cloud
 ```
 
-### ```bash
-git clone https://github.com/Kan-T-IT/geonode-cloud.git && cd geonode-cloud
-```
+### Configurar las variables de entorno
 
 Configurar las Variables de Entorno
 
