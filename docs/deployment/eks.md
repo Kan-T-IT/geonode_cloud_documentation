@@ -2,7 +2,7 @@
 
 ## 1. Configuring OIDC Providers and IAM for EKS
 
-Associate the OIDC provider with the testGeonode cluster:
+Associate the OIDC provider with the `testGeonode` cluster:
 
 ``` bash
 eksctl utils associate-iam-oidc-provider --region us-east-1 --cluster testGeonode --approve
@@ -38,7 +38,7 @@ Add the EKS Helm repository and update:
 helm repo add eks https://aws.github.io/eks-charts
 helm repo update
 ```
-Install the AWS Load Balancer Controller on the testGeonode cluster:
+Install the AWS Load Balancer Controller on the `testGeonode` cluster:
 
 ``` bash
 helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
@@ -57,7 +57,7 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 
 ## 4. Installing and Configuring the EBS CSI Controller
 
-Install the EBS CSI Driver addon on the testGeonode cluster:
+Install the EBS CSI Driver addon on the `testGeonode` cluster:
 
 ``` bash
 eksctl create addon --name aws-ebs-csi-driver --cluster testGeonode --region us-east-1
@@ -92,24 +92,24 @@ kubectl create secret docker-registry registrykey \
 To deploy these files in order, follow this workflow:
 
 - **Cluster and StorageClass**
-    - cluster.yaml in clusterEksctl (if the cluster is not yet created).
-    - local-storageclass.yaml in configs/storageclass (to set up the StorageClass before creating volumes).
+    - `cluster.yaml` in `clusterEksctl` (if the cluster is not yet created).
+    - `local-storageclass.yaml` in `configs/storageclass` (to set up the StorageClass before creating volumes).
 - **Database**
-    - ConfigMap: gndatabase-configmap.yaml in database/configmaps.
-    - PVC: dbdata-pvc.yaml in database/volumes.
-    - Deployment: gndatabase-deployment.yaml in database/deployments.
-    - Service: gndatabase-service.yaml in database/services.
+    - ConfigMap: `gndatabase-configmap.yaml` in `database/configmaps`.
+    - PVC: `dbdata-pvc.yaml` in `database/volumes`.
+    - Deployment: `gndatabase-deployment.yaml` in `database/deployments`.
+    - Service: `gndatabase-service.yaml` in `database/services`.
 - **gn-cloud Components**
-    - ConfigMaps in gn-cloud/configmaps (to ensure all configurations are available).
-    - PVCs: statics-pvc.yaml and tmp-pvc.yaml in gn-cloud/volumes.
-    - Deployments: deploy celery, django, mapstore, memcache, and redis in gn-cloud/deployments.
-    - Services for each component in gn-cloud/services.
+    - ConfigMaps in `gn-cloud/configmaps` (to ensure all configurations are available).
+    - PVCs: `statics-pvc.yaml` and `tmp-pvc.yaml` in `gn-cloud/volumes`.
+    - Deployments: `deploy celery`, `django`, `mapstore`, `memcache`, and `redis` in `gn-cloud/deployments`.
+    - Services for each component in `gn-cloud/services`.
 - **gs-cloud Components**
-    - ConfigMaps in gs-cloud/configmaps (to ensure all configurations are ready).
-    - PVCs: geowebcache-data-persistentvolumeclaim.yaml and rabbitmq-data-persistentvolumeclaim.yaml in gs-cloud/volumes.
-    - Deployments: deploy acl, gateway, gwc, rabbitmq, rest, wcs, webui, wfs, and wms in gs-cloud/deployments.
-    - Services in gs-cloud/services.
+    - ConfigMaps in `gs-cloud/configmaps` (to ensure all configurations are ready).
+    - PVCs: `geowebcache-data-persistentvolumeclaim.yaml` and `rabbitmq-data-persistentvolumeclaim.yaml` in `gs-cloud/volumes`.
+    - Deployments: `deploy acl`, `gateway`, `gwc`, `rabbitmq`, `rest`, `wcs`, `webui`, `wfs`, and `wms` in `gs-cloud/deployments`.
+    - Services in `gs-cloud/services`.
 - **Ingress**
-    - Finally, apply geonode-ingress.yaml in configs/ingress to expose services externally.
+    - Finally, apply `geonode-ingress.yaml` in `configs/ingress` to expose services externally.
 
 After completing these steps, verify the status of the pods and services.
