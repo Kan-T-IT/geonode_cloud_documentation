@@ -72,7 +72,9 @@ GEOSERVER_PASSWORD=geoserver # contraseña para el usuario admin de geoserver
 
 ### Ejecutar el script de instalación
 
-Ejecutar el Script de Instalación
+```bash
+./install.sh
+```
 
 ```bash
 ./install.sh
