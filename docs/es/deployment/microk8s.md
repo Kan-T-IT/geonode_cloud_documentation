@@ -4,31 +4,31 @@ GeoNode Cloud se puede desplegar en varias plataformas de Kubernetes. Aquí est�
 
 ## Despliegue en MicroK8S
 
-### Requisitos
-
-* MicroK8S:
+* Requisitos
+    * MicroK8S:
     * Módulo Ingress
     * Módulo DNS
-    * Módulo Cert-manager
 
-### Instalar MicroK8S con Snap
+## Módulo Cert-manager
 
-```bash
+Instalar MicroK8S con Snap
+
+## ```bash
 sudo snap install microk8s --classic
 ```
 
-### Habilitar los Módulos Requeridos de MicroK8S
+Habilitar los Módulos Requeridos de MicroK8S
 
-```bash
+## ```bash
 microk8s enable ingress
 microk8s enable cert-manager
 ```
 
-### Crear Configuración de Cert-Manager para Let's Encrypt
+Crear Configuración de Cert-Manager para Let's Encrypt
 
 Reemplaza `TUEMAIL@DOMINIO.com` con tu propia dirección de correo electrónico.
 
-```bash
+## ```bash
 microk8s kubectl apply -f - <<EOF
 ---
 apiVersion: cert-manager.io/v1
@@ -50,19 +50,19 @@ spec:
 EOF
 ```
 
-## Despliegue
+### Despliegue
 
-### Clonar el repositorio
+Clonar el repositorio
 
-```bash
+### ```bash
 git clone https://github.com/Kan-T-IT/geonode-cloud.git && cd geonode-cloud
 ```
 
-### Configurar las Variables de Entorno
+Configurar las Variables de Entorno
 
 Edita el archivo `.env` con la información necesaria:
 
-```env
+### ```env
 KUBERNETES_SITE_URL=GEONODE_CLOUD_FINAL_URL # ejemplo.: cloud.mygeonode.com
 KUBERNETES_NODE_NAME=YOUR_CLUSTER_NAME_NAME # usualmente el nombre de la máquina anfitriona
 KUBERNETES_VOL_DIR=YOUR_DESIRED_LOCATION # esta ruta debe existir
@@ -72,10 +72,8 @@ GEONODE_PASSWORD=admin  # contraseña para el usuario admin de geonode
 GEOSERVER_PASSWORD=geoserver # contraseña para el usuario admin de geoserver
 ```
 
-### Ejecutar el Script de Instalación
+Ejecutar el Script de Instalación
 
 ```bash
 ./install.sh
 ```
-
-GeoNode Cloud ahora debería estar listo para su uso.
