@@ -10,7 +10,7 @@
 
     !!! note
 
-    Substitua localhost pelo DNS da sua implantação do GeoNode, se aplicável.
+        Substitua localhost pelo DNS da sua implantação do GeoNode, se aplicável.
 
 2. Faça login como `admin/geoserver`.
 
